@@ -1,0 +1,278 @@
+
+/* =========================
+   BribeTrace - Report Form
+   ========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7fafc;
+    color: #172033;
+    line-height: 1.6;
+}
+
+/* Navigation */
+
+.navbar {
+    width: 100%;
+    padding: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border-bottom: 1px solid #e8ecf2;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: #0d1b2a;
+    text-decoration: none;
+}
+
+.logo span {
+    color: #0f9d8a;
+}
+
+.back-link {
+    text-decoration: none;
+    color: #0f9d8a;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.back-link:hover {
+    color: #087c6d;
+}
+
+/* Main Container */
+
+.report-container {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 45px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(13, 27, 42, 0.06);
+}
+
+/* Heading */
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.tag {
+    display: inline-block;
+    color: #0f9d8a;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.form-heading h1 {
+    font-size: 36px;
+    color: #0d1b2a;
+    margin-bottom: 12px;
+}
+
+.form-heading p {
+    color: #667085;
+    font-size: 15px;
+}
+
+/* Form Groups */
+
+.form-group {
+    margin-bottom: 23px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 9px;
+    color: #263445;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-group label span {
+    color: #e05252;
+}
+
+/* Input Fields */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    border: 1px solid #dce2e9;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #172033;
+    font-family: inherit;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #0f9d8a;
+    box-shadow: 0 0 0 3px rgba(15, 157, 138, 0.1);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #a0a8b4;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 140px;
+}
+
+/* Anonymous Option */
+
+.anonymous-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 18px;
+    margin: 25px 0;
+    background: #f0faf8;
+    border: 1px solid #ccece5;
+    border-radius: 8px;
+}
+
+.anonymous-box input {
+    width: 17px;
+    height: 17px;
+    margin-top: 4px;
+    accent-color: #0f9d8a;
+    cursor: pointer;
+}
+
+.anonymous-box label {
+    cursor: pointer;
+}
+
+.anonymous-box strong {
+    display: block;
+    color: #0d1b2a;
+    font-size: 14px;
+}
+
+.anonymous-box small {
+    display: block;
+    color: #667085;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+/* Privacy Notice */
+
+.privacy-notice {
+    padding: 17px;
+    background: #f7fafc;
+    border-left: 4px solid #0f9d8a;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.privacy-notice strong {
+    display: block;
+    color: #0d1b2a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.privacy-notice p {
+    color: #667085;
+    font-size: 13px;
+}
+
+/* Submit Button */
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background: #0f9d8a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover {
+    background: #087c6d;
+    transform: translateY(-2px);
+}
+
+/* Form Note */
+
+.form-note {
+    text-align: center;
+    color: #98a2b3;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+/* Footer */
+
+.footer {
+    padding: 25px 7%;
+    background: #08131f;
+    color: #94a3b8;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 850px) {
+
+    .report-container {
+        margin: 35px 20px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .navbar {
+        padding: 18px 5%;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .back-link {
+        font-size: 13px;
+    }
+
+    .report-container {
+        margin: 20px 12px;
+        padding: 23px 18px;
+    }
+
+    .form-heading h1 {
+        font-size: 28px;
+    }
+}
