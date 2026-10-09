@@ -60,7 +60,7 @@ BribeTrace is an MCA academic project designed to encourage transparency by prov
 
 
 
-4. Set the `DB\_PASSWORD` environment variable to your database password.
+4. Set the `DB_PASSWORD` environment variable to your database password.
 
 
 
