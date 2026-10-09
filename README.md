@@ -1,4 +1,4 @@
-\# BribeTrace – Building Transparency
+# BribeTrace – Building Transparency
 
 
 
@@ -6,89 +6,89 @@ BribeTrace is an MCA academic project designed to encourage transparency by prov
 
 
 
-\## Objectives
+## Objectives
 
 
 
-\* Encourage transparency and awareness.
+* Encourage transparency and awareness.
 
-\* Provide a platform for reporting incidents.
+* Provide a platform for reporting incidents.
 
-\* Organize reported information for analysis.
-
-
-
-\## Technologies Used
+* Organize reported information for analysis.
 
 
 
-\* Frontend: HTML, CSS, JavaScript
-
-\* Backend: Java, Spring Boot
-
-\* Database: MySQL
-
-\* Build Tool: Maven
+## Technologies Used
 
 
 
-\## Features
+* Frontend: HTML, CSS, JavaScript
+
+* Backend: Java, Spring Boot
+
+* Database: MySQL
+
+* Build Tool: Maven
 
 
 
-\* Home page introducing BribeTrace.
-
-\* Report an Incident page.
-
-\* Simple and user-friendly interface.
+## Features
 
 
 
-\## How to Run
+* Home page introducing BribeTrace.
+
+* Report an Incident page.
+
+* Simple and user-friendly interface.
 
 
 
-1\. Install Java JDK 21 and MySQL Server.
+## How to Run
 
 
 
-2\. Create a MySQL database named `bribetrace`.
+1. Install Java JDK 21 and MySQL Server.
 
 
 
-3\. Configure your local database credentials in `application.properties`.
+2. Create a MySQL database named `bribetrace`.
 
 
 
-4\. Set the `DB\_PASSWORD` environment variable to your database password.
+3. Configure your local database credentials in `application.properties`.
 
 
 
-5\. Open PowerShell in the project folder and run:
+4. Set the `DB\_PASSWORD` environment variable to your database password.
 
 
 
-&#x20;  `.\\mvnw.cmd spring-boot:run`
+5. Open PowerShell in the project folder and run:
 
 
 
-6\. Open http://localhost:8080 in your browser.
+`.\mvnw.cmd spring-boot:run`
 
 
 
-\## Future Enhancements
+6. Open http://localhost:8080 in your browser.
 
 
 
-\* Analyze reports by area and field.
-
-\* Add charts and visual summaries.
-
-\* Improve data validation and privacy protection.
+## Future Enhancements
 
 
 
-\## GitHub Repository
+* Analyze reports by area and field.
+
+* Add charts and visual summaries.
+
+* Improve data validation and privacy protection.
+
+
+
+## GitHub Repository
 
 
 
@@ -96,7 +96,7 @@ https://github.com/AparnaChaudharyy/BribeTrace
 
 
 
-\*\*BribeTrace – Building Transparency Through Technology\*\*
+**BribeTrace – Building Transparency Through Technology**
 
 
 
