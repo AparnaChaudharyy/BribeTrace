@@ -25,6 +25,7 @@ public class Report {
     @Column(name = "incident_date")
     private LocalDate incidentDate;
 
+    @Column(columnDefinition = "TEXT")
     private String description;
 
     private Boolean anonymous;

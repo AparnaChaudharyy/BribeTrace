@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Analysis Dashboard | BribeTrace</title>
+
+    <link rel="stylesheet" href="analysis.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>BribeTrace</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="report.html">Report an Incident</a>
+            <a href="analysis.html">Analysis</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Report Analysis Dashboard</h2>
+            <p>Explore reported bribery incidents by sector, location, and bribe type.</p>
+        </section>
+
+        <section class="summary">
+            <h3>Total Reports</h3>
+            <p id="totalReports">Loading...</p>
+        </section>
+
+        <section class="analysis-grid">
+
+            <div class="analysis-card">
+                <h3>Reports by Sector</h3>
+                <div id="sectorResults">Loading...</div>
+            </div>
+
+            <div class="analysis-card">
+                <h3>Reports by Location</h3>
+                <div id="locationResults">Loading...</div>
+            </div>
+
+            <div class="analysis-card">
+                <h3>Reports by Bribe Type</h3>
+                <div id="typeResults">Loading...</div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>BribeTrace | Building Transparency</p>
+    </footer>
+
+    <script src="analysis.js"></script>
+
+</body>
+</html>
