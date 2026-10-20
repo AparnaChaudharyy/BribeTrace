@@ -1,187 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>BribeTrace | Building Transparency</title>
-
+    <meta name="description" content="BribeTrace is an academic civic-transparency project for documenting reported bribery incidents and exploring patterns in submitted data.">
+    <title>BribeTrace | Transparency, Made Visible</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="theme.css">
 </head>
-
 <body>
-
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-
-            <div class="logo">
-                <span class="logo-icon">B</span>
-                <span>BribeTrace</span>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="index.html" aria-label="BribeTrace home"><span class="brand-mark">B<span>↗</span></span><span>Bribe<span class="brand-accent">Trace</span><small>BUILDING TRANSPARENCY</small></span></a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+            <div class="nav-links" id="navLinks">
+                <a class="active" href="#home">Home</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#learn">Learn</a>
+                <a href="analysis.html">Analysis</a>
+                <a class="nav-cta" href="report.html">Report an incident <span>↗</span></a>
             </div>
-
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#reports">Explore Reports</a></li>
-                <li><a href="analysis.html">Analysis Dashboard</a></li>
-            </ul>
-
-            <a href="report.html" class="nav-button">Report an Incident</a>
-
         </nav>
     </header>
 
-
-    <!-- Hero Section -->
     <main>
-
-        <section class="hero" id="home">
-
-            <div class="hero-content">
-
-                <span class="tagline">
-                    TRANSPARENCY STARTS WITH YOU
-                </span>
-
-                <h1>
-                    Expose Corruption.<br>
-                    <span>Build a Better Tomorrow.</span>
-                </h1>
-
-                <p>
-                    BribeTrace is a public transparency platform
-                    that helps people report bribery incidents
-                    and understand corruption patterns across
-                    different sectors and locations.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="report.html" class="primary-button">
-                        Submit a Report →
-                    </a>
-
-                    <a href="#about" class="secondary-button">
-                        Learn More
-                    </a>
-
+        <section class="hero section-wrap" id="home">
+            <div class="hero-copy">
+                <div class="eyebrow"><span class="eyebrow-dot"></span> A CIVIC TRANSPARENCY PROJECT</div>
+                <h1>Small acts of courage.<br><span>Lasting change.</span></h1>
+                <p class="hero-lead">Bribery thrives in silence. BribeTrace helps organize reported experiences into useful information—so patterns across services and locations can be explored more clearly.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="report.html">Share a report <span>↗</span></a>
+                    <a class="button button-quiet" href="analysis.html"><span class="play-icon">▥</span> Explore the data</a>
                 </div>
-
+                <div class="hero-note"><span class="shield-icon">✓</span><span><strong>Your choice matters.</strong> Anonymous reporting is available in this project.</span></div>
             </div>
-
-            <div class="hero-card">
-
-                <div class="card-icon">◎</div>
-
-                <h3>Your Voice Matters</h3>
-
-                <p>
-                    Every report contributes to a clearer
-                    understanding of bribery patterns.
-                </p>
-
-                <div class="card-divider"></div>
-
-                <div class="card-feature">
-                    <span>✓</span>
-                    Anonymous reporting option
-                </div>
-
-                <div class="card-feature">
-                    <span>✓</span>
-                    Data-driven insights
-                </div>
-
-                <div class="card-feature">
-                    <span>✓</span>
-                    Public transparency
-                </div>
-
+            <div class="hero-visual" aria-label="Illustration representing transparency and public accountability">
+                <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
+                <div class="visual-glow"></div>
+                <div class="visual-panel panel-back"><span class="panel-kicker">PUBLIC SERVICES</span><div class="mini-line long"></div><div class="mini-line"></div><div class="mini-line short"></div><div class="panel-status"><i></i> Information matters</div></div>
+                <div class="visual-panel panel-front"><div class="visual-icon">⌕</div><span class="panel-kicker">TRACE THE PATTERN</span><h3>From reports<br>to insight.</h3><div class="visual-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="visual-caption"><span>Data-led awareness</span><b>↗</b></div></div>
+                <div class="floating-chip chip-top"><span>◎</span> Transparency</div><div class="floating-chip chip-bottom"><span>↗</span> Better understanding</div>
             </div>
-
         </section>
 
-
-        <!-- Statistics Section -->
-        <section class="stats" id="reports">
-
-            <div class="stat-item">
-                <h2>01</h2>
-                <p>Report an Incident</p>
-            </div>
-
-            <div class="stat-item">
-                <h2>02</h2>
-                <p>Analyze Patterns</p>
-            </div>
-
-            <div class="stat-item">
-                <h2>03</h2>
-                <p>Promote Transparency</p>
-            </div>
-
+        <section class="trust-strip" aria-label="Project principles">
+            <div><span class="trust-symbol">◈</span><span><strong>People-first</strong><small>Designed around public awareness</small></span></div>
+            <div><span class="trust-symbol">⌁</span><span><strong>Pattern-focused</strong><small>Explore trends in submitted data</small></span></div>
+            <div><span class="trust-symbol">◉</span><span><strong>Privacy-aware</strong><small>Avoid sharing personal details</small></span></div>
         </section>
 
-
-        <!-- About Section -->
-        <section class="about" id="about">
-
-            <span class="section-tag">ABOUT BRIBETRACE</span>
-
-            <h2>
-                Making Information<br>
-                <span>Accessible to Everyone.</span>
-            </h2>
-
-            <p>
-                BribeTrace aims to provide a platform where
-                individuals can voluntarily share information
-                about bribery incidents. The collected reports
-                can be analyzed to identify patterns across
-                sectors and geographical areas.
-            </p>
-
+        <section class="section-wrap process-section" id="how-it-works">
+            <div class="section-heading"><span class="section-label">A CLEARER PICTURE, TOGETHER</span><h2>Turn experiences into <span>understanding.</span></h2><p>BribeTrace provides a simple way to document reported incidents and examine the information collectively.</p></div>
+            <div class="process-grid">
+                <article class="process-card"><div class="step-top"><span>01</span><span class="step-icon">✎</span></div><h3>Share an experience</h3><p>Submit the details you know about an incident. You can choose the anonymous option and should avoid adding identifying information.</p><a href="report.html" class="text-link">Go to reporting <span>→</span></a></article>
+                <article class="process-card featured-card"><div class="step-top"><span>02</span><span class="step-icon">⌕</span></div><h3>Explore reported patterns</h3><p>Review grouped reports by sector, location, and type to understand where submissions are being recorded.</p><a href="analysis.html" class="text-link">Open dashboard <span>→</span></a></article>
+                <article class="process-card"><div class="step-top"><span>03</span><span class="step-icon">✧</span></div><h3>Build awareness</h3><p>Use organized information to support discussion, awareness, and further investigation through appropriate official channels.</p><a href="#learn" class="text-link">Learn the basics <span>→</span></a></article>
+            </div>
         </section>
 
-
-        <!-- Report Section Placeholder -->
-        <section class="report-section" id="submit">
-
-            <h2>Have You Witnessed Bribery?</h2>
-
-            <p>
-                Help contribute to transparency by sharing
-                information about an incident.
-            </p>
-
-            <a href="report.html" class="primary-button">
-                Start Your Report →
-            </a>
-
+        <section class="learn-section" id="learn">
+            <div class="learn-layout section-wrap">
+                <div class="learn-copy"><span class="section-label">KNOW WHAT TO LOOK FOR</span><h2>Bribery can take <span>different forms.</span></h2><p>Bribery generally involves offering, giving, requesting, or accepting an undue advantage to influence a decision or action. It can be direct or disguised as an unofficial payment or favour.</p><p class="learning-note"><span>i</span> The examples below are illustrative learning material, not verified allegations about any person or institution.</p><a class="button button-outline" href="report.html">Document an incident <span>↗</span></a></div>
+                <div class="example-list">
+                    <article class="example-card"><div class="example-icon icon-coral">₹</div><div><h3>Unofficial payment request</h3><p>Someone asks for money beyond an officially listed fee to move a routine process forward.</p><span class="example-tag">EXAMPLE · PAYMENT</span></div></article>
+                    <article class="example-card"><div class="example-icon icon-blue">◷</div><div><h3>Service in exchange for a favour</h3><p>A person suggests that an application will receive special treatment in return for a personal benefit.</p><span class="example-tag">EXAMPLE · FAVOUR</span></div></article>
+                    <article class="example-card"><div class="example-icon icon-green">▤</div><div><h3>Pressure to pay to avoid delay</h3><p>An unofficial payment is implied to be necessary to prevent a service from being delayed or withheld.</p><span class="example-tag">EXAMPLE · PRESSURE</span></div></article>
+                </div>
+            </div>
         </section>
 
+        <section class="closing-cta section-wrap"><div class="cta-decoration">✳</div><div><span class="section-label">EVERY DETAIL SHOULD BE HANDLED RESPONSIBLY</span><h2>Have information to share?</h2><p>Record what happened as accurately as you can. Do not include personal details or information you cannot support.</p></div><a class="button button-light" href="report.html">Start a report <span>↗</span></a></section>
     </main>
 
-
-    <!-- Footer -->
-    <footer>
-
-        <div class="logo">
-            <span class="logo-icon">B</span>
-            <span>BribeTrace</span>
-        </div>
-
-        <p>
-            Building awareness through information and transparency.
-        </p>
-
-        <p class="copyright">
-            © 2026 BribeTrace. Academic Project.
-        </p>
-
-    </footer>
-
+    <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">B<span>↗</span></span><span>Bribe<span class="brand-accent">Trace</span><small>BUILDING TRANSPARENCY</small></span></a><p>Organizing information. Encouraging awareness.</p><span class="footer-meta">© 2026 BribeTrace · MCA Academic Project</span></footer>
+    <script src="theme.js"></script>
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        menuToggle.addEventListener('click', function () {
+            const open = navLinks.classList.toggle('nav-open');
+            menuToggle.setAttribute('aria-expanded', String(open));
+            menuToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
+        });
+        navLinks.querySelectorAll('a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                navLinks.classList.remove('nav-open');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            });
+        });
+    </script>
 </body>
 </html>
